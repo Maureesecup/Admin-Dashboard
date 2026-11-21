@@ -26,5 +26,37 @@
 
 .middle {
     grid-area: middle;
-    background: #e2e8f0;
+    background: #d0d7e0;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.topbar {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+}
+
+.bottombar {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+.topbar button,
+.bottombar button {
+    background: none;
+    border: none;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    cursor: pointer;
 }
