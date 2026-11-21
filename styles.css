@@ -81,6 +81,7 @@
     padding: 10px;
     font-size: 16px;
     border-radius: 20px;
+    background-color: #d0d7e0;
 }
 
 .tr-name {
@@ -101,7 +102,9 @@
     grid-row: 2;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 25px;
+    width: 70%;
+    justify-self: end;
 }
 
 .header-buttons button {
@@ -164,4 +167,42 @@
 
 .middle-section h2 {
     font-size: 18px;
+}
+
+.project-card,
+.announcement-card,
+.trending-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.project-card {
+    border-left: 6px solid orange;
+    min-height: 150px;
+}
+
+.announcement-card,
+.trending-card {
+    display: grid;
+    gap: 15px;
+}
+
+.project-card h3,
+.announcement-card h3,
+.trending-card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.project-card p,
+.announcement-card p,
+.trending-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.announcement-card hr {
+    border: 0;
+    border-top: 1px solid #ddd;
 }
