@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 215px 1fr;
+    grid-template-rows: 128px 1fr;
+    grid-template-areas:
+        "left top"
+        "left middle";
+    min-height: 100vh;
+}
+
+.left {
+    grid-area: left;
+    background: #0b9cf0;
+}
+
+.top {
+    grid-area: top;
+    background: white;
+}
+
+.middle {
+    grid-area: middle;
+    background: #e2e8f0;
+}
